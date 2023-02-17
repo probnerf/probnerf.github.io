@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
@@ -96,19 +96,19 @@
                     <ul class="nav nav-pills nav-justified">
                         <li>
                             <a href="https://arxiv.org/abs/2210.17415">
-                            <img src="./img/paper.png" height="60px">
+                            <img src="./img/paper.png" alt="paper" height="60">
                                 <h4><strong>Paper</strong></h4>
                             </a>
                         </li>
                         <li>
                             <a href="#" target="_blank">
-                            <image src="img/real_database_icon.png" height="60px">
+                            <img src="img/real_database_icon.png" alt="data" height="60">
                                 <h4><strong>Dataset</strong>(coming soon)</h4>
                             </a>
                         </li>                            
                         <li>
                             <a href="#" target="_blank">
-                            <image src="img/Google_Colaboratory_SVG_Logo.svg" height="60px">
+                            <img src="img/Google_Colaboratory_SVG_Logo.svg" alt="colab" height="60">
                                 <h4><strong>Colab</strong>(coming soon)</h4>
                             </a>
                         </li>
@@ -130,7 +130,7 @@ The problem of inferring object shape from a single 2D image is underconstrained
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
-                    Samples
+                    HMC and VI posterior sample variation
                 </h3>
 Depicted below are some HMC and VI posterior samples from the GHUM and SRN cars datasets:
             </div>
@@ -142,6 +142,36 @@ Conditioned on either the left half a view of a GHUM body (top left) or a back v
             </div>
         </div>
 
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Posterior HMC samples
+                </h3>
+            </div>
+            <div class="col-md-12">
+                <video style="width: 100%" autoplay loop muted controls>
+                  <source src="mp4/ghum/test_7_view_0.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-md-12">
+                <video style="width: 100%" autoplay loop muted controls>
+                  <source src="mp4/srncars/test_15_view_34.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Prior samples
+                </h3>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                <video style="width: 100%" autoplay loop muted controls>
+                  <source src="mp4/ghum/prior.mp4" type="video/mp4">
+                </video>
+                <video style="width: 100%" autoplay loop muted controls>
+                  <source src="mp4/srncars/prior.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
